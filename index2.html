@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Create a parent div with a set width and height. Inside this parent div, place a child div. 
+     Use absolute positioning to place the child div in the bottom-right corner of the parent 
+     div. How does absolute positioning affect the placement of the child div relative to its parent? -->
+    <style>
+        .parent{
+            width: 200px;
+            height: 400px;
+            position: relative;
+            border: 2px solid;
+            background-color: aqua;
+        }
+        .child{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: red;
+            border: 2px solid;
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+        </div>
+
+    </div>
+</body>
+</html>
